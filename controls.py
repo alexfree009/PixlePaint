@@ -1,0 +1,24 @@
+import pygame
+
+from Sattings import *
+
+
+
+DOT_BUTTON = pygame.Rect(10, 20, 30, 30)
+LINE_BUTTON = pygame.Rect(10, 60, 30, 30)
+SQUARE_BUTTON = pygame.Rect(50, 20, 30, 30)
+CIRCLE_BUTTON = pygame.Rect(50, 60, 30, 30)
+BUTTONS_ART = (DOT_BUTTON, LINE_BUTTON, SQUARE_BUTTON, CIRCLE_BUTTON)
+
+
+RED_COLOR = [RED, pygame.Rect(210, 20, 30, 30)]
+BLUE_COLOR = [BLUE, pygame.Rect(210, 60, 30, 30)]
+YELLOW_COLOR = [YELLOW, pygame.Rect(250, 20, 30, 30)]
+GREEN_COLOR = [GREEN, pygame.Rect(250, 60, 30, 30)]
+BLACK_COLOR = [BLACK, pygame.Rect(290, 20, 30, 30)]
+WHITE_COLOR = [WHITE, pygame.Rect(290, 60, 30, 30)]
+CLEAR_COLOR = [CLEAR, pygame.Rect(330, 20, 30, 30)]
+COSTUME_COLOR = [RED, pygame.Rect(330, 60, 30, 30)]
+
+BUTTONS_COLOR = [RED_COLOR, BLUE_COLOR, YELLOW_COLOR, GREEN_COLOR, BLACK_COLOR, WHITE_COLOR,CLEAR_COLOR, COSTUME_COLOR]
+
