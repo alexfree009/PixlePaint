@@ -17,7 +17,7 @@ class Cell:
         if event.type == pygame.MOUSEBUTTONDOWN:
             if self.rect.collidepoint(event.pos):
                 self.is_clicked = True
-                self.color = RED  # Turn red when clicked
+                self.color = BRIGHT_RED  # Turn red when clicked
                 print(f"Cell {self.id} clicked!")
         if event.type == pygame.MOUSEBUTTONUP:
             if self.rect.collidepoint(event.pos) and self.is_clicked:
@@ -26,3 +26,5 @@ class Cell:
 
     def paint(self, new_color):
         self.color = new_color
+    def sqair_draw(self, new_color):
+        pass
